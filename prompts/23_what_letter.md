@@ -1,5 +1,5 @@
-# Стикер 21 — "Сордолъикӏ!"
-_(Спокойной ночи!)_
+# Стикер 23 — "Гьаб щи хӏарп?"
+_(Это что за буква?)_
 
 ## Готовый промпт (base + специфика) — просто скопируй целиком
 
@@ -38,24 +38,19 @@ BACKGROUND — CRITICAL, DO NOT IGNORE:
 CAPTION TEXT — CRITICAL, DO NOT IGNORE:
 - Reproduce the caption text EXACTLY character-for-character as given below, including
   every diacritic and special Avar letter (е.g. Ӏ/ӏ "palochka", ь, ъ). Do not "correct",
-  simplify, transliterate, or substitute any letter (do not replace ӏ/Ӏ with 1, do not
-  swap ъ for ь or vice versa, do not drop ь/ъ, do not swap ы/и or к/кь/кӏ). Copy the exact
-  Cyrillic string given, letter by letter, as if copy-pasting it.
-- Pay special attention: the word contains a HARD SIGN "ъ" (not a soft sign "ь") between
-  "л" and "и" — "Сордолъикӏ", not "Сордольикӏ". Double-check this specific letter before
-  finalizing the image.
+  simplify, transliterate, or substitute any letter. Copy the exact Cyrillic string given,
+  letter by letter, as if copy-pasting it.
 - Caption text is dark navy, bold, rounded font, rendered directly on the sticker below
   the character, matching the look of the reference sticker.
 
 Consistent proportions with the character sheet (see ../concepts/character.md).
 Color palette limited to 6 core colors.
 
-Sleepy, peaceful nighttime expression, eyes gently closed with soft curved lines, small content smile, wearing a small dark blue nightcap with tiny star pattern and a pom-pom on top, small 'zzz' shapes floating near the head, both gloved hands folded together and resting against one cheek in a classic "sleeping" gesture, standing on top of a small stack of books, body slightly leaning as if drifting off to sleep.
-Caption text rendered on the sticker (dark navy, bold, rounded font, below the character): "Сордолъикӏ!"
+Curious puzzled expression, eyebrows raised in surprise, one gloved hand pointing at a giant standalone letter "Ӏ" (palochka) floating next to the character, exclamation and question marks above the head, the other hand open in a questioning shrug gesture.
+Caption text rendered on the sticker (dark navy, bold, rounded font, below the character): "Гьаб щи хӏарп?"
 ```
 
-**Caption overlay (текст на стикере):** "Сордолъикӏ!"
+**Caption overlay (текст на стикере):** "Гьаб щи хӏарп?"
 
-**История:** первые две попытки генератор печатал "Сордольикӏ!" (мягкий знак ь
-вместо твёрдого ъ). С третьей попытки текст получился верным — см.
-`../png/final/21_goodnight.png`.
+**Известная особенность:** большая буква-загадка на картинке получилась похожей на
+"Лі", а не на чистую палочку "Ӏ" — принято как декоративный элемент, не критично.
